@@ -21,7 +21,7 @@ public class Game extends Activity {
         final ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
         final ConfigurationInfo configurationInfo = activityManager.getDeviceConfigurationInfo();
         final boolean supportsEs2 = configurationInfo.reqGlEsVersion >= 0x20000;
-     
+     //test
         if (supportsEs2)
         {
             // Request an OpenGL ES 2.0 compatible context.
