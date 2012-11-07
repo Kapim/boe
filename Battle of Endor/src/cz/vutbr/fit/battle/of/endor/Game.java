@@ -28,7 +28,7 @@ public class Game extends Activity {
             mGLSurfaceView.setEGLContextClientVersion(2);
      
             // Set the renderer to our demo renderer, defined below.
-            mGLSurfaceView.setRenderer(new GameRenderer(this));
+            mGLSurfaceView.setRenderer(new GameRenderer());
         }
         else
         {
